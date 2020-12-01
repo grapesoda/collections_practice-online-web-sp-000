@@ -1,1 +1,5 @@
-sort_array_asc
+dishes = ["steak", "apple pie", "vegetable soup"]
+ 
+dishes.sort do |a, b|
+    a <=> b
+end
