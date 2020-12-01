@@ -23,8 +23,8 @@ end
 ####---------------####
 
 def swap_elements(numbers)
-  numbers.sort do 
-
+  numbers[1], numbers[2] = numbers[2], numbers[1]
+  numbers
 end
     
 ####---------------####
