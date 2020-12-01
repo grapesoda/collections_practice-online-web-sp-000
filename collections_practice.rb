@@ -1,5 +1,7 @@
-dishes = ["steak", "apple pie", "vegetable soup"]
+numbers = ["steak", "apple pie", "vegetable soup"]
  
-dishes.sort do |a, b|
+def sort_array_asc
+  numbers.sort do |a, b|
     a <=> b
+end
 end
