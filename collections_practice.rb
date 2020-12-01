@@ -22,7 +22,9 @@ end
   
 ####---------------####
 
-def 
+def swap_elements(numbers)
+  numbers.sort do 
+
 end
     
 ####---------------####
